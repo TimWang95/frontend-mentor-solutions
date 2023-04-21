@@ -45,16 +45,16 @@ body {
 .card__title {
   margin-top: 1.5rem;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.37rem;
   line-height: 1.7rem;
-  
+  color: #1F314F;
 }
 
 .card__description {
   margin: 1rem;
 
   font-weight: 400;
-  font-size: .9rem;
+  font-size: .93rem;
   line-height: 1.1rem;
   color: #7d889e;
 }
