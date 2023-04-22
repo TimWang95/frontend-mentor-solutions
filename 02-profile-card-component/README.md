@@ -1,8 +1,6 @@
-<p align="center">
-  <a href="https://www.frontendmentor.io/profile/TimWang95">
-    <img src="./images/favicon-32x32.png" alt="圖片描述">
-  </a>
-</p>
+<a href="https://www.frontendmentor.io/profile/TimWang95" align="center">
+  <img src="./images/favicon-32x32.png" alt="圖片描述">
+</a>
 
 # Frontend Mentor - Profile card component solution
 
@@ -18,7 +16,7 @@
 ## Links
 
 - Solution URL: [GitHub repo](https://github.com/TimWang95/frontend-mentor-solutions/tree/main/01-qr-code-component-main)
-- Live Site URL: [solution Demo](https://TimWang95.github.io/frontend-mentor-solutions/01-qr-code-component-main/)
+- Live Site URL: [solution Demo](https://timwang95.github.io/frontend-mentor-solutions/02-profile-card-component/)
 
 ## Built with
 - ![HTML5](https://camo.githubusercontent.com/49fbb99f92674cc6825349b154b65aaf4064aec465d61e8e1f9fb99da3d922a1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d2532334533344632362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465)
@@ -38,4 +36,4 @@
 
 ## Acknowledgments
 
-- Challenge was provided by ![Frontend Mentor](https://www.frontendmentor.io/home)
+- Challenge was provided by [Frontend Mentor](https://www.frontendmentor.io/home)

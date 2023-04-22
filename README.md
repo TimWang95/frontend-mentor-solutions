@@ -17,4 +17,11 @@ Here you can find all the [Fronted Mentor](https://www.frontendmentor.io/profile
     <td><a href="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/01-qr-code-component-main">REPO</a></td>
     <td><a href="https://TimWang95.github.io/frontend-mentor-solutions/01-qr-code-component-main/">DEMO</a></td>
   </tr>
+  <tr>
+  <td>02</td>
+  <td>Profile Card</td>
+  <td>Newbie</td>
+  <td><a herf="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/02-profile-card-component">REPO</a></td>
+  <td><a href="https://timwang95.github.io/frontend-mentor-solutions/02-profile-card-component/">DEMO</a></td>
+  </tr>
 </table>
