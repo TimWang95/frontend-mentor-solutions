@@ -21,7 +21,7 @@ Here you can find all the [Fronted Mentor](https://www.frontendmentor.io/profile
   <td>02</td>
   <td>Profile Card</td>
   <td>Newbie</td>
-  <td><a herf="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/02-profile-card-component">REPO</a></td>
+  <td><a herf="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/02-profile-card-component/">REPO</a></td>
   <td><a href="https://timwang95.github.io/frontend-mentor-solutions/02-profile-card-component/">DEMO</a></td>
   </tr>
 </table>

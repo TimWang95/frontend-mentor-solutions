@@ -4,10 +4,7 @@
 
 # Frontend Mentor - Profile card component solution
 
-<center>
-<a herf="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ">Frontend Mentor Challenge</a>
-</center>
-
+[Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
 
 ## Screenshot
 
@@ -15,7 +12,7 @@
 
 ## Links
 
-- Solution URL: [GitHub repo](https://github.com/TimWang95/frontend-mentor-solutions/tree/main/01-qr-code-component-main)
+- Solution URL: [GitHub repo](https://github.com/TimWang95/frontend-mentor-solutions/tree/main/02-profile-card-component/)
 - Live Site URL: [solution Demo](https://timwang95.github.io/frontend-mentor-solutions/02-profile-card-component/)
 
 ## Built with
@@ -29,7 +26,7 @@
 
 
 ## Author
-- [![My GitHub](https://camo.githubusercontent.com/843009ef549f1199c4d4682e94d2afa964a6e6b156669d2f823a949bdc3ae027/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f47697468756225323050726f66696c652d3133313331333f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465)](https://github.com/TimWang95/frontend-mentor-solutions.git)
+- [![My GitHub](https://camo.githubusercontent.com/843009ef549f1199c4d4682e94d2afa964a6e6b156669d2f823a949bdc3ae027/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f47697468756225323050726f66696c652d3133313331333f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465)](https://github.com/TimWang95)
 - [![@TimWang95](https://camo.githubusercontent.com/1ee177622c1f9c0a437d6bc2e1680ba9ee19632f4b3b5c29e24b71544f9850ab/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f46454d25323050726f66696c652d6638663966383f7374796c653d666f722d7468652d6261646765266c6f676f3d46726f6e74656e642d4d656e746f72266c6f676f436f6c6f723d626c61636b)](https://www.frontendmentor.io/profile/TimWang95)
 
 
