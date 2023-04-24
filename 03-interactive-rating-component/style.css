@@ -73,6 +73,7 @@ body {
 
 .rating-paragraph {
   margin-top: 1.05rem;
+  height: 4.12rem;
   color: var(--Secondary-Text-Color);
   font-weight: 400;
   font-size: 0.875rem;
@@ -217,12 +218,14 @@ input[type="radio"]:checked + label {
   }
 
   .rating-heading {
+    height: 2.68rem;
     margin-top: 1.785rem;
     font-size: 1.75rem;
   }
 
   p.rating-paragraph {
     margin-top: 0.43rem;
+    height: 4.5rem;
     font-size: 0.9rem;
     line-height: 1.5rem;
   }
