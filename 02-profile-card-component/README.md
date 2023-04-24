@@ -1,7 +1,3 @@
-<a href="https://www.frontendmentor.io/profile/TimWang95" align="center">
-  <img src="./images/favicon-32x32.png" alt="圖片描述">
-</a>
-
 # Frontend Mentor - Profile card component solution
 
 [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
