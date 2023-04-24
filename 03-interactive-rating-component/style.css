@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white:hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Medium-Grey: hsl(216, 12%, 54%);
+  --Dark-Blue: hsl(213, 19%, 18%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+  
+  --blue: hsl(244, 64%, 42%);
+
+  --Button: hsl(244, 54%, 25%);
+  --Checked: hsl(244, 73%, 54%);
+  --Submit: hsl(244, 73%, 54%);
+
+  --Primary-Text-Color: hsl(0, 0%, 100%);
+  --Secondary-Text-Color: hsl(0, 0%, 90%);
+  --Selected-paragraph: hsl(244, 73%, 54%);
+
+  --Body-Background: linear-gradient(135deg, hsl(231, 56%, 16%) 0%, hsl(243, 76%, 5%) 100%);
+  --Main-Background: 
+      linear-gradient(135deg, hsl(244, 64%, 42%) 0%, hsl(243, 53%, 17%) 100%);
+  --Icon-Star: hsl(244, 54%, 25%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:hsl(0, 0%, 100%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--Body-Background);
+  font-family: 'Overpass';
+  font-size: 15px;
+}
+
+.container {
+  padding: 24px;
+  border-radius: 20px 90px 20px 20px;
+  background: var(--Main-Background);
+  width: 20.43rem;
+  height: 22.5rem;
+}
+
+.icon-star__wrapper {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--Icon-Star);
+  border-radius: 50%;
+}
+.icon-star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.rating-heading {
+  margin-top: 1rem;
+  height: 1.87rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--Primary-Text-Color);
+}
+
+.rating-paragraph {
+  margin-top: 1.05rem;
+  color: var(--Secondary-Text-Color);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+}
+
+.form-container {
+  margin-top: 1.5rem;
+}
+fieldset {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  width: 17.56rem;
+  height: 2.62rem;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.rating-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 2.62rem;
+  height: 2.62rem;
+  border-radius: 50%;
+  background: var(--Button);
+  color: var(--Secondary-Text-Color);
+  font-weight: 700;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.selected {
+  background: var(--Checked);
+  color: var(--Primary-Text-Color);
+}
+
+input[type="radio"]:hover + .rating-number {
+  background: var(--Checked);
+  color: var(--Primary-Text-Color);
+}
+input[type="radio"]:checked + label {
+  background: var(--Checked);
+  color: var(--Primary-Text-Color);
+}
+
+.submit-btn {
+  margin-top: 1.5rem;
+  border: 0;
+  border-radius: 1.4rem;
+
+  width: 17.43rem;
+  height: 2.8rem;
+  background: var(--Submit);
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  letter-spacing: 1.87px;
+  cursor: pointer;
+  transition: .2s ease;
+}
+.submit-btn:hover {
+  background: var(--white);
+  color: var(--blue);
+}
+
+.thankyou-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+}
+
+.thankyou-illustrantion {
+  margin-top: 2.125rem;
+  width: 9rem;
+}
+
+.selected-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+  padding: 5px 0;
+  width: 10.5rem;
+  height: 2rem;
+
+  border-radius: 1.4rem;
+  background: var(--Selected-paragraph);
+  color: var(--Primary-Text-Color);
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.thankyou-heading {
+  color: var(--Primary-Text-Color);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.thankyou-paragraph {
+  margin-top: 1rem;
+  color: var(--Secondary-Text-Color);
+  font-weight: 400;
+  font-size: 0.875rem; 
+  line-height: 1.37rem;
+}
+
+.d-none {
+  display: none;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 30px;
+  color: var(--Medium-Grey);
+  font-size: .9rem;
+}
+
+.attribution a {
+  color: var(--Medium-Grey);
+}
+
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding:  2rem;
+    width: 25.75rem;
+    height: 26rem;
+    border-radius: 1.87rem;
+  }
+
+  .icon-star__wrapper {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .rating-heading {
+    margin-top: 1.785rem;
+    font-size: 1.75rem;
+  }
+
+  p.rating-paragraph {
+    margin-top: 0.43rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  fieldset {
+    width: 21.31rem;
+  }
+
+ .rating-number{
+    width: 3.18rem;
+    height: 3.18rem;
+    font-size: 1rem;
+  }
+
+  .submit-btn {
+    margin-top: 2rem;
+    border: 0;
+    border-radius: 1.4rem;
+
+    width: 21.3rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 1.18rem;
+  }
+
+  .thankyou-illustrantion {
+    margin-top: 2.81rem;
+    width: 10.12rem;
+  }
+
+  .selected-paragraph {
+    margin: 2rem 0;
+    padding: 4px 0;
+    width: 12rem;
+    height: 2rem;
+    font-size: 0.93rem;
+  }
+
+  .thankyou-heading {
+    font-size: 1.75rem;
+  }
+
+  .thankyou-paragraph {
+    width: 21.25rem;
+    margin-top: 0.43rem;
+    font-size: 0.93rem;
+    line-height: 1.5rem;
+  }
+}

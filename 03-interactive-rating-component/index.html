@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+  <main>
+    <div class="rating-container container ">
+      <div class="icon-star__wrapper">
+        <img src="./images/icon-star.svg" alt="" class="icon-star">
+      </div>
+
+      <h2 class="rating-heading">How did we do?</h2>
+      <p class="rating-paragraph">Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!</p>
+
+      <form class="form-container">
+        <fieldset>
+          <input 
+            type="radio" 
+            name="rating" 
+            class="ratings" 
+            id="one"
+            value="1"
+          >
+          <label for="one" class="rating-number">1</label>
+          <input 
+            type="radio" 
+            name="rating" 
+            class="ratings" 
+            id="two"
+            value="2"
+          >
+          <label for="two" class="rating-number">2</label>
+          <input 
+            type="radio" 
+            name="rating" 
+            class="ratings" 
+            id="three"
+            value="3"
+          >
+          <label for="three" class="rating-number">3</label>
+          <input 
+            type="radio" 
+            name="rating" 
+            class="ratings " 
+            id="four"
+            value="4"
+          >
+          <label for="four" class="rating-number ">4</label>
+          <input 
+            type="radio" 
+            name="rating" 
+            class="ratings" 
+            id="five"
+            value="5"
+          > 
+          <label for="five" class="rating-number">5</label>
+        </fieldset>
+        <button class="submit-btn" id="submit-btn" type="submit">
+          SUBMIT
+        </button>
+      </form>
+    </div>
+
+    <div class="thankyou-container container d-none">
+      <img src="./images/illustration-thank-you.svg" alt="" class="thankyou-illustrantion">
+      <p class="selected-paragraph">
+        You selected <span class="selected-rating"></span> out of 5
+      </p>
+      <h2 class="thankyou-heading">Thank you!</h2>
+      <p class="thankyou-paragraph">We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!</p>
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/TimWang95">Tim Wang</a>.
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>
