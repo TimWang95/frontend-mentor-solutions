@@ -131,13 +131,13 @@ body {
   opacity: 0;
 }
 
-.person-info-background {
-  background: var(--Very-Dark-Grayish-Blue);
-}
-
 .attribution {
   position: absolute;
   bottom: 30px;
+  color: var(--Very-Dark-Grayish-Blue);
+}
+.attribution > a {
+  color: var(--Very-Dark-Grayish-Blue);
 }
 
 @media screen and (min-width: 900px) {
