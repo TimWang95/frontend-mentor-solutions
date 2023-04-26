@@ -28,7 +28,14 @@ Here you can find all the [Fronted Mentor](https://www.frontendmentor.io/profile
     <td>03</td>
     <td>Interactive Rating</td>
     <td>Newbie</td>
-    <td><a href="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/03-interactive-rating-component">REPO</a></td>
+    <td><a href="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/03-interactive-rating-component/">REPO</a></td>
     <td><a href="https://timwang95.github.io/frontend-mentor-solutions/03-interactive-rating-component/">DEMO</a></td>
+  </tr>
+  <tr>
+    <td>04</td>
+    <td>Article preview</td>
+    <td>Newbie</td>
+    <td><a href="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/04-article-preview/">REPO</a></td>
+    <td><a href="https://timwang95.github.io/frontend-mentor-solutions/04-article-preview/">DEMO</a></td>
   </tr>
 </table>
