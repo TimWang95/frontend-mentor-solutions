@@ -38,4 +38,11 @@ Here you can find all the [Fronted Mentor](https://www.frontendmentor.io/profile
     <td><a href="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/04-article-preview/">REPO</a></td>
     <td><a href="https://timwang95.github.io/frontend-mentor-solutions/04-article-preview/">DEMO</a></td>
   </tr>
+  <tr>
+    <td>05</td>
+    <td>Product preview card</td>
+    <td>Newbie</td>
+    <td><a href="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/05-product-preview-card/">REPO</a></td>
+    <td><a href="https://timwang95.github.io/frontend-mentor-solutions/05-product-preview-card/">DEMO</a></td>
+  </tr>
 </table>
