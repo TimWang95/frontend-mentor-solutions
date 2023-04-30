@@ -45,4 +45,11 @@ Here you can find all the [Fronted Mentor](https://www.frontendmentor.io/profile
     <td><a href="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/05-product-preview-card/">REPO</a></td>
     <td><a href="https://timwang95.github.io/frontend-mentor-solutions/05-product-preview-card/">DEMO</a></td>
   </tr>
+  <tr>
+    <td>06</td>
+    <td>Testimonials grid section</td>
+    <td>Junior</td>
+    <td><a href="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/06-testimonials-grid-section/">REPO</a></td>
+    <td><a href="https://timwang95.github.io/frontend-mentor-solutions/06-testimonials-grid-section">DEMO</a></td>
+  </tr>  
 </table>

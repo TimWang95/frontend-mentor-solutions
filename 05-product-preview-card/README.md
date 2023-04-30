@@ -18,7 +18,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## What I Learnd
 
-- First time using the <picture> and <source> tags on my component.
+- First time using the `<picture>` and `<source>` tags on my component.
 
 ## Author
 - [![My GitHub](https://camo.githubusercontent.com/843009ef549f1199c4d4682e94d2afa964a6e6b156669d2f823a949bdc3ae027/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f47697468756225323050726f66696c652d3133313331333f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465)](https://github.com/TimWang95)
