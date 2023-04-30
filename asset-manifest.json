@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/frontend-mentor-solutions/06-testimonials-grid-section/static/css/main.6feb0624.css",
+    "main.js": "/frontend-mentor-solutions/06-testimonials-grid-section/static/js/main.a9c62cc5.js",
+    "static/js/787.9d5dd9ca.chunk.js": "/frontend-mentor-solutions/06-testimonials-grid-section/static/js/787.9d5dd9ca.chunk.js",
+    "index.html": "/frontend-mentor-solutions/06-testimonials-grid-section/index.html",
+    "static/media/bg-pattern-quotation.svg": "/frontend-mentor-solutions/06-testimonials-grid-section/static/media/bg-pattern-quotation.6b460e30439432820da6.svg",
+    "main.6feb0624.css.map": "/frontend-mentor-solutions/06-testimonials-grid-section/static/css/main.6feb0624.css.map",
+    "main.a9c62cc5.js.map": "/frontend-mentor-solutions/06-testimonials-grid-section/static/js/main.a9c62cc5.js.map",
+    "787.9d5dd9ca.chunk.js.map": "/frontend-mentor-solutions/06-testimonials-grid-section/static/js/787.9d5dd9ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6feb0624.css",
+    "static/js/main.a9c62cc5.js"
+  ]
+}
