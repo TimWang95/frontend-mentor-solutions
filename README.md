@@ -8,7 +8,7 @@ Here you can find all the [Fronted Mentor](https://www.frontendmentor.io/profile
     <td>Challenge</td>
     <td>Difficulty</td>
     <td>REPO</td>
-    <td>DEMPO</td>
+    <td>DEMO</td>
   </tr>
   <tr>
     <td>01</td>
