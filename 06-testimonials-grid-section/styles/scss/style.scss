@@ -40,6 +40,8 @@
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: 13px;
   background: var(--Light-grayish-blue);
