@@ -25,6 +25,10 @@ body {
   font-size: 15px;
 }
 
+.sr-only {
+  display: none;
+}
+
 .card__container .card {
   padding: 48px;
   width: 327px;
