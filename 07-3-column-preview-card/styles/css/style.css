@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  min-height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.card__container .card {
+  padding: 48px;
+  width: 327px;
+  height: 442px;
+}
+.card__container .card-img {
+  margin-bottom: 35px;
+}
+.card__container .card-title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "Big Shoulders Display", cursive;
+}
+.card__container .card-content {
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+.card__container .card-title, .card__container .card-content {
+  color: var(--Transparent-white);
+}
+.card__container .card-btn {
+  padding: 11px 31.5px;
+  width: 146px;
+  height: 48px;
+  border: 1px solid var(--Very-light-gray);
+  border-radius: 25px;
+  background: var(--Very-light-gray);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  transition: 0.5s ease;
+}
+.card__container .card-btn:hover {
+  background: transparent;
+  color: var(--Very-light-gray);
+  cursor: pointer;
+}
+
+.card-1 {
+  background: var(--Bright-orange);
+  border-radius: 8px 8px 0 0;
+}
+.card-1 .card-btn {
+  color: var(--Bright-orange);
+}
+
+.card-2 {
+  background: var(--Dark-cyan);
+}
+.card-2 .card-btn {
+  color: var(--Dark-cyan);
+}
+
+.card-3 {
+  background: var(--Very-dark-cyan);
+  border-radius: 0 0 8px 8px;
+}
+.card-3 .card-btn {
+  color: var(--Very-dark-cyan);
+}
+
+footer {
+  position: absolute;
+  bottom: 30px;
+  color: var(--Dark-cyan);
+}
+footer a {
+  color: var(--Dark-cyan);
+}
+
+@media screen and (min-width: 980px) {
+  .container {
+    display: flex;
+  }
+  .container .card {
+    width: 307px;
+    height: 500px;
+  }
+  .container .card-content {
+    margin-bottom: 83px;
+  }
+  .card-1 {
+    border-radius: 8px 0 0 8px;
+  }
+  .card-3 {
+    border-radius: 0 8px 8px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
