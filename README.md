@@ -52,4 +52,11 @@ Here you can find all the [Fronted Mentor](https://www.frontendmentor.io/profile
     <td><a href="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/06-testimonials-grid-section/">REPO</a></td>
     <td><a href="https://timwang95.github.io/frontend-mentor-solutions/06-testimonials-grid-section">DEMO</a></td>
   </tr>  
+  <tr>
+    <td>07</td>
+    <td>Column Preview Card</td>
+    <td>Newbie</td>
+    <td><a href="https://github.com/TimWang95/frontend-mentor-solutions/tree/main/07-3-column-preview-card/">REPO</a></td>
+    <td><a href="https://timwang95.github.io/frontend-mentor-solutions/07-3-column-preview-card/">DEMO</a></td>
+  </tr>
 </table>
